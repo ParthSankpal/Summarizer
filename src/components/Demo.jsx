@@ -72,7 +72,7 @@ const Demo = () => {
       <div className='my-10 max-w-full flex justify-center items-center'>
             {isFetching?(<img src={loader} alt='loader' className='w-20 h-20 object-contain'/>): 
               error?(<p className='font-inter font-bold text-black text-center'>
-                  Well That wasn't supposed to be happen...<br/>
+                  Well That wasn't supposed to be happen...but my api key is not working rn<br/>
                   <span className='font-satoshi font-normal text-gray-700'>
                     {error?.data?.error}
                   </span>
